@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+.tittle-text{
+  color:#181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.primary-p{
+  color:#757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.btn-primary{
+  width: 150px;
+  height: 64px;
+  padding: 19px 35px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #FD6E0A;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+/*======================
+ Header Area style
+========================*/
+.header{
+  width: 100%;
+  height: 847px;
+  background: #FFF8F3;
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-position: right bottom, left 40px center;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 230px 0px 226px;
+}
+.nav-tittle{
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.text-primary{
+  color: #FD6E0A;
+}
+nav > ul{
+  display: flex;
+  align-items: center;
+}
+nav li{
+  list-style: none;
+  margin-left: 51px;
+}
+nav a{
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*===================
+ Banner Area 
+====================*/
+.banner-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 57px 42px 0px 226px;
+}
+.banner-img{
+  width: 584px;
+  height: 676px;
+}
+.bio h4{
+  color:  #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.bio h1{
+  color:  #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+.bio p{
+  color:#757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.btn{
+  margin-top: 30px;
+}
+.btn2{
+  margin-right: 30px;
+  width: 250px;
+}
+.btn i{
+  padding-right: 8px;
+}
+.btn3{
+  width: 200px;
+  background-color: #FFF8F3;
+  color: #FD6E0A;
+  border: 1px solid #FD6E0A;
+  padding: 18px 35px 20px 35px;
+}
+
+/*===================
+ About Area 
+=====================*/
+
+.about {
+  margin: 130px 0px;
+}
+.about-container{
+  margin: 0 auto;
+  width: 1140px;
+  height: 550px;
+  background-color: #FFF8F3;
+}
+.about-inner{
+  text-align: center;
+  padding: 131px 156px;
+}
+.info{
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+/*==================
+ technology Area 
+====================*/
+
+.technology{
+  text-align: center;
+  margin-bottom: 130px;
+}
+.wid{
+  margin: 0 auto;
+  width: 909px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.tech{
+  display: flex;
+  justify-content: center;
+}
+.main-tech{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  width: 277px;
+  padding: 30px 30px;
+  margin-right: 24px;
+  height: 320px;
+  text-align: justify;
+}
+.main-tech1{
+  margin-right: 0px;
+}
+.main-tech, img, h4{
+  margin-bottom: 30px;
+}
+.main-tech, h4{
+  color:#181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+.main-tech:hover{
+  background-color: #FFF8F3;
+  width: 278px;
+  height: auto;
+  box-shadow: 0px 6px 50px 0px #FFF8F3;
+}
+
+/*================
+ Resume Area 
+==================*/
+.resume{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.side1{
+  width: 500px;
+}
+.resume-container > h1{
+  text-align: center;
+  margin-bottom: 113px;
+}
+.resume-container > button{
+  margin-top: 80px;
+  margin-bottom: 113px;
+  margin-left: 44%;
+}
+
+.item1, h6, p{
+  margin-bottom: 20px;
+}
+.item1 > h1{
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.item1 > h5{
+  color:#474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.item1 > h6{
+  color:#757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*===================
+ Footer Area 
+=====================*/
+
+.footer{
+  background-color: #FFF8F3;
+}
+.footer-container{
+  padding: 130px 0px;
+  display: flex;
+  gap: 117px;
+  justify-content: center;
+}
+.icon-foot{
+  display: flex;
+  gap: 24px;
+}
+.right > p{
+  width: 562px;
+}
+
+input{
+  border-style: none;
+  background-color: white;
+  width: 461px;
+  height: 24px;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  padding: 20px;
+}
+textarea{
+  width: 464px;
+  height: 180px;
+  border-radius: 5px;
+  background:#FFF;
+  border-style: none;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+}
+
+
+
+
+
+
